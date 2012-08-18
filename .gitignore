@@ -18,3 +18,4 @@ builtAssets/js/*
 builtAssets/css/*
 logs/*
 cache/*
+views/boilerplate/*
