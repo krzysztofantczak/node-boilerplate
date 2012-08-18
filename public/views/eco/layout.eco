@@ -1,0 +1,6 @@
+<%- css 'header'  %>
+<%- js 'index'  %>
+
+<h1>Super ECO sajt</h1>
+<%- @body %>
+

@@ -1,0 +1,33 @@
+{
+  "name": "template",
+  "version": "1.0.0",
+  "description": "Web template",
+  "dependencies": {
+
+    "coffee-script"  : "latest",
+    "socket.io"      : "latest",
+    "express"        : "latest",
+    "cluster"        : "latest",
+    "eco"            : "latest",
+
+    "connect-assets" : "*",
+    "connect-less"   : "latest",
+    "less"           : "latest",
+
+    "now"            : "latest",
+    "moment"         : "latest",
+
+    "fusker"         : "latest",
+    "bunyan"         : "latest",
+
+    "express-namespace": "latest",
+    "express-params"   : "latest",
+    "express-expose"   : "latest",
+
+    "vogue"            : "latest"
+  },
+  "scripts": {
+    "start": "node ./app.js",
+    "test": "vows --spec --isolate"
+  }
+}

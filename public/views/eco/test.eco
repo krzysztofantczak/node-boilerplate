@@ -1,0 +1,9 @@
+<% div = (title, contents) => %>
+   <div><h3><%- title %></h3><p><%- contents %></p></div>
+   <hr />
+<% end %>
+
+<%= div "Hello", "adasd" %>
+<%= div "AQQ", "znowu jakaś treść :D" %>
+
+<%- @foo %>

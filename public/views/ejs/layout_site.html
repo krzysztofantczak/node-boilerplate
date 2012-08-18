@@ -1,0 +1,29 @@
+
+<!doctype html>
+<head>
+    <meta charset=utf-8>
+    <title>Nested Layouts Demo!!!</title>
+    <%- js ('/socket.io/socket.io.js') %>
+    <%- css ('header')  %>
+    <%- js ('index')  %>
+    <script>
+      var socket = io.connect('http://localhost');
+      socket.on('news', function (data) {
+        console.log(data);
+        socket.emit('my other event', { my: 'data' });
+      });
+    </script>
+</head>
+<body>
+    <h1>Site EJS Layout</h1>
+    <p>
+        This is the master site layout.
+        It is not wrapped by a layout.
+    </p>
+
+    <%- body %>
+
+    <%- partial ( "part", { title: "Hello", contents: "adasd"} ) %>
+    <%- partial ( "part", { title: "Hello", contents: "adasd"} ) %>
+</body>
+</html>
