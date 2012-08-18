@@ -8,7 +8,6 @@ lib-cov
 *.gz
 
 pids
-logs
 results
 
 node_modules
@@ -17,3 +16,5 @@ http-attacks.log
 
 builtAssets/js/*
 builtAssets/css/*
+logs/*
+cache/*
