@@ -1,1 +1,0 @@
-(function(){console.log("blabla !!!!",this["this"])}).call(this),console.log("tester")

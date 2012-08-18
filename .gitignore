@@ -14,3 +14,6 @@ results
 node_modules
 npm-debug.log
 http-attacks.log
+
+builtAssets/js/*
+builtAssets/css/*
