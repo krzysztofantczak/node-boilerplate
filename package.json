@@ -3,28 +3,24 @@
   "version": "1.0.0",
   "description": "Web template",
   "dependencies": {
-
-    "coffee-script"  : "latest",
-    "socket.io"      : "latest",
-    "express"        : "latest",
-    "cluster"        : "latest",
-    "eco"            : "latest",
-
-    "connect-assets" : "*",
-    "connect-less"   : "latest",
-    "less"           : "latest",
-
-    "now"            : "latest",
-    "moment"         : "latest",
-
-    "fusker"         : "latest",
-    "bunyan"         : "latest",
-
+    "coffee-script": "latest",
+    "socket.io": "latest",
+    "express": "latest",
+    "cluster": "latest",
+    "eco": "latest",
+    "ejs": "0.8.2",
+    "connect-assets": "*",
+    "connect-less": "latest",
+    "less": "latest",
+    "now": "latest",
+    "moment": "latest",
+    "fusker": "latest",
+    "bunyan": "latest",
     "express-namespace": "latest",
-    "express-params"   : "latest",
-    "express-expose"   : "latest",
-
-    "vogue"            : "latest"
+    "express-params": "latest",
+    "express-expose": "latest",
+    "vogue": "latest",
+    "ejs-locals": "~0.1.5"
   },
   "scripts": {
     "start": "node ./app.js",

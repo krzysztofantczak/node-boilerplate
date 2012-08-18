@@ -19,3 +19,4 @@ builtAssets/css/*
 logs/*
 cache/*
 views/boilerplate/*
+tests/drafts/*
